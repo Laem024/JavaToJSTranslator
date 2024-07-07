@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "JavaToJSTranslator/1.0.0": {
+        "dependencies": {
+          "Antlr": "3.5.0.2"
+        },
+        "runtime": {
+          "JavaToJSTranslator.dll": {}
+        }
+      },
+      "Antlr/3.5.0.2": {
+        "runtime": {
+          "lib/Antlr3.Runtime.dll": {
+            "assemblyVersion": "3.5.0.2",
+            "fileVersion": "3.5.0.2"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JavaToJSTranslator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Antlr/3.5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CSfrVuDVMx3OrQhT84zed+tOdM1clljyRLWWlQM22fJsmG836RVDGQlE6tzysXh8X8p9UjkHbLr6OqEIVhtdEA==",
+      "path": "antlr/3.5.0.2",
+      "hashPath": "antlr.3.5.0.2.nupkg.sha512"
+    }
+  }
+}
